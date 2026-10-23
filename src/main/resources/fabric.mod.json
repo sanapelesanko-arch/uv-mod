@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1, "id": "uvvisuals", "version": "${version}",
+  "name": "UV Visuals", "description": "Visual client: glass menu, hands, swing, optimization, music.",
+  "environment": "client",
+  "entrypoints": { "client": ["uv.visuals.UVClient"] },
+  "mixins": ["uvvisuals.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "fabric-api": "*" },
+  "suggests": { "vulkanmod": "*", "sodium": "*" }
+}
