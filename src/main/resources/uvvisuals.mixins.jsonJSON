@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "uv.visuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SwingMixin",
+    "HandMixin",
+    "GlowMixin",
+    "BadgeMixin",
+    "SkyMixin",
+    "TitleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
